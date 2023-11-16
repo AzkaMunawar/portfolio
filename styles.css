@@ -692,9 +692,6 @@ margin-right: 30px;
         flex-direction: column;
         row-gap:40px;
     }
-    .project>.img{
-        width:70%;
-    }
     .title{
         font-size: 25px;
 
@@ -767,7 +764,13 @@ margin-right: 30px;
 
 @media (max-width:500px) {
     :root{
-        --container-width:95%;
+        --container-width:100%;
+    }
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
     }
     /*Hero Section*/
     .hero-content{
@@ -781,6 +784,12 @@ margin-right: 30px;
         padding-right: 0;
     }
     /*About Section*/
+     #skills, #projects, #about{
+       padding:0 6%;
+    }
+    .about-content>p, .project>.content p{
+        margin:15px 0 15px;
+    }
     .buttons>.btn.btn.secondary{
         margin-right: 20px;
     }
