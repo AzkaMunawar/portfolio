@@ -803,6 +803,10 @@ margin-right: 30px;
      #skills ul li .card{
         width:80%;
      }
+     /*Project Section*/
+    .project{
+        row-gap:20px;
+      }
      /*Contact Section*/
      .contact-form{
         padding: 35px 20px;
