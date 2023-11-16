@@ -783,6 +783,9 @@ margin-right: 30px;
     .hero-content>h1{
         padding-right: 0;
     }
+     header nav{
+        max-height: 50vh;
+    }
     /*About Section*/
      #skills, #projects, #about{
        padding:0 6%;
